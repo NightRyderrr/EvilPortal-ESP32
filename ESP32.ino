@@ -570,7 +570,7 @@ void setup(){
   Serial.println();
   Serial.println("Setting up AP Mode");
   WiFi.mode(WIFI_AP); 
-  WiFi.softAP("BISD-Freshmen[Instagram]");
+  WiFi.softAP("Change Me");
   Serial.print("AP IP address: ");Serial.println(WiFi.softAPIP());
   Serial.println("Setting up Async WebServer");
   setupServer();
